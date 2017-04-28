@@ -8,12 +8,16 @@ namespace Trafficlight
 {
     class TrafficLight
     {
-        Signal SignalN = new Signal();
-        Signal SignalS = new Signal();
-        Signal SignalW = new Signal();
-        Signal SignalO = new Signal();
+        private Signal color;
 
-        
+        public Signal Color
+        {
+            get { return color; }
+            set { color = value; }
+        }
+
+
+
 
     }
 }
