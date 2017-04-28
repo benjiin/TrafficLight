@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Trafficlight
 {
-    enum Signal
+    class Signal
     {
-        RED, GREEN
+        string GREEN = "Green";
+        string Color = string.Empty;
+        public Signal()
+        {
+            this.Color = "Green";
+        }
     }
 }

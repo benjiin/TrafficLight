@@ -8,20 +8,7 @@ namespace Trafficlight
 {
     class Crossroads
     {
-       
-        public void Init()
-        {
-            Signal SignalN = new Signal();
-        }
-        public Crossroads()
-        {
-            Init();
-        }
+        Signal SignalN = new Signal();
 
-
-        public void Switch()
-        {
-            Console.WriteLine("wsw");
-        }
     }
 }
